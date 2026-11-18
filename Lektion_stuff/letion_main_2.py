@@ -1,4 +1,4 @@
-import Lektion_stuff.lektion_data_2 as lektion_data_2
+import lektion_data_2
 import random
 
 enLista = lektion_data_2.get_List_Of_Games()

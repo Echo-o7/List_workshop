@@ -1,4 +1,4 @@
-import Lektion_stuff.lektion_data_1 as lektion_data_1
+import lektion_data_1
 
 redo_Value_Times = 0
 redo_Value = "Y"

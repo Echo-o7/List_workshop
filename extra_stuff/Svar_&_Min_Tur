@@ -3,3 +3,5 @@ data   main   lekttion_main_1   lektion_data_1   lektion_main_2   lektion_data_2
 
 1) main - path 1 har svaret.
 2) main - path 4 har svaret.
+3) main - path 7 & data - get_games har svartet.
+4) main - path 9 & data - get_shopping_list har svarte.

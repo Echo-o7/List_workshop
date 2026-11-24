@@ -1,10 +1,16 @@
 import random
 import numpy
 
-def get_temperatures():
+def get_temperatures(): #3.
     temperatures = [12, 15, 18, 14, 11]
     return temperatures
-def get_cities():
+def get_cities(): #3.
     return ["Göteborg", "Malmö", "Stockholm", "Majorna"]
-def get_games():
+def get_games(): #3)
     return ["Deadlock", "Portal", "Left For Dead", "Titanfall", "Half Life"]
+def get_shopping_list(): #4)
+    shopping_list = ["Fruit", "Milk", "Bread", "Eggs", "Cheese"]
+    random_item_list = ["Meat", "Fish", "Pork", "Chicken", "Vegetables"]
+    shopping_list.insert(random.randrange(len(shopping_list) + 1), random.choice(random_item_list))
+    shopping_list.append(random.choice(random_item_list))
+    return shopping_list

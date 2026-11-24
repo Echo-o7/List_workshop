@@ -2,6 +2,9 @@ import numpy
 import random
 import data
 
+temperatures = data.get_temperatures()
+cities = data.get_cities()
+games = data.get_games()
 print("Look at the code to see the different paths")
 Path = input("Path ")
 
@@ -29,13 +32,14 @@ elif Path == "4": #2)
     print(Games)
 
 elif Path == "5":
-    None
+    print(temperatures)
 
 elif Path == "6":
-    None
+    print(cities)
 
 elif Path == "7":
-    None
+    print(games)
+    print(len(games))
 
 elif Path == "8":
     None

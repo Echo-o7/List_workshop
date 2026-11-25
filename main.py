@@ -51,14 +51,19 @@ elif Path == "8": #4.
 elif Path == "9": #4)
     print(shopping)
 
-elif Path == "10":
-    None
+elif Path == "10": #5.
+    names = ["Anna", "Erik", "Sara", "Johan"]
+    names.pop(1)
+    print(names)
 
-elif Path == "11":
-    None
+elif Path == "11": #5.
+    names = ["Anna", "Erik", "Sara", "Johan"]
+    removed_name = names.pop(1)
+    print("Borttaget namn:", removed_name)
+    print("Kvar i listan:", names)
 
-elif Path == "12":
-    None
+elif Path == "12": #5)
+    print(shopping)
 
 elif Path == "13":
     None

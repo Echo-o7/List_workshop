@@ -1,5 +1,7 @@
 import random
 import numpy
+shopping_list = ["Fruit", "Milk", "Bread", "Eggs", "Cheese"]
+random_item_list = ["Meat", "Fish", "Pork", "Chicken", "Vegetables"]
 
 def get_temperatures(): #3.
     temperatures = [12, 15, 18, 14, 11]
@@ -13,4 +15,10 @@ def get_shopping_list(): #4)
     random_item_list = ["Meat", "Fish", "Pork", "Chicken", "Vegetables"]
     shopping_list.insert(random.randrange(len(shopping_list) + 1), random.choice(random_item_list))
     shopping_list.append(random.choice(random_item_list))
+    return shopping_list
+def remove_shopping_list(): #5)
+    get_shopping_list()
+    shopping_list.remove(random.choice(random_item_list))
+    get_shopping_list()
+    shopping_list.pop(random.randrange(len(shopping_list+1)))
     return shopping_list

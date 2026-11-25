@@ -6,6 +6,7 @@ temperatures = data.get_temperatures()
 cities = data.get_cities()
 games = data.get_games()
 shopping = data.get_shopping_list()
+Shopping = data.remove_shopping_list()
 print("Look at the code to see the different paths")
 Path = input("Path ")
 
@@ -63,7 +64,7 @@ elif Path == "11": #5.
     print("Kvar i listan:", names)
 
 elif Path == "12": #5)
-    print(shopping)
+    print(Shopping)
 
 elif Path == "13":
     None

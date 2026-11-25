@@ -22,3 +22,6 @@ def remove_shopping_list(): #5)
     shopping_list.append(random.choice(random_item_list))
     shopping_list.pop(random.randrange(len(shopping_list)))
     return shopping_list
+def get_scores(): #6)
+    scores = [1, 71, 36, 83, 26, 53, 97, 14, 53, 40]
+    return scores
